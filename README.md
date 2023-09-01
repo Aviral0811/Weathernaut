@@ -63,8 +63,8 @@ Get hourly weather forecast details for a specific city.
 
 - **Endpoint:** `GET v1/weather/hourly/{location}`
 - **Headers:**
-  - `ClientId`: client
-  - `ClientSecret`: QgdVGmED1hkaS8xd6qnOPqv7ko5H6rlw
+  - `client_id`: client
+  - `client_secret`: QgdVGmED1hkaS8xd6qnOPqv7ko5H6rlw
 - **Example Request:**
   ```bash
   curl -H "ClientId: <your_client_id>" -H "ClientSecret: <your_client_secret>" http://localhost:8080/weather/hourly-forecast/London
