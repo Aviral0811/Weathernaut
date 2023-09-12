@@ -1,6 +1,7 @@
 package com.nexus.skyscan.service;
 
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nexus.skyscan.model.WeatherData;
 import lombok.extern.slf4j.Slf4j;
@@ -58,6 +59,8 @@ public class WeatherDataHandler {
             throw new IOException("Failed to fetch forecast summary");
         }
     }
+
+
     private HttpRequest getHttpRequest(String url) {
         return HttpRequest.newBuilder()
                 .uri(URI.create(url))
