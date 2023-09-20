@@ -1,6 +1,7 @@
 # Weather Forecast RESTful APIs using Spring Boot
 
 This project demonstrates how to build a Spring Boot application that integrates with the Weather API from RapidAPI. It exposes RESTful APIs to retrieve weather forecast information for any city. The APIs require header-based authentication using a random client ID and client secret.
+Edit: Updated to use JWT Token based Authentication
 
 ## Getting Started
 
